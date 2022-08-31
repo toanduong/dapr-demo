@@ -1,0 +1,19 @@
+.main-menu[b-bcj1s6pnw0] {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-menu[b-bcj1s6pnw0] {
+    width: 80%;
+}
+
+.right-menu[b-bcj1s6pnw0] {
+    display: flex;
+    text-align: right;
+}
+
+[b-bcj1s6pnw0] .btn-signin {
+    margin: 5px;
+}

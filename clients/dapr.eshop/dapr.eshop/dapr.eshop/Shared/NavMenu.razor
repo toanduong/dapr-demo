@@ -1,0 +1,42 @@
+﻿<RadzenCard>
+    <div class="main-menu">
+        <div class="left-menu">
+            <RadzenImage Path="images/logo_color.svg" class="logo"/>
+        </div>
+        <div class="right-menu">
+            <RadzenMenu>
+                <RadzenMenuItem Text="Help"></RadzenMenuItem>
+                <RadzenMenuItem Text="Contact Us"></RadzenMenuItem>
+                <RadzenMenuItem Text="EN" Image="./images/us.png" class="languages">
+                    <RadzenMenuItem Text="DE" Image="./images/de.png" class="languages"></RadzenMenuItem>
+                </RadzenMenuItem>
+            </RadzenMenu>
+            <RadzenButton Text="Login" class="btn-signin"/>
+            <RadzenProfileMenu>
+                <Template>
+                    <RadzenGravatar Email="user@example.com">
+                    </RadzenGravatar>
+                </Template>
+                <ChildContent>
+                    <RadzenProfileMenuItem Text="Profile" Path="buttons" Icon="account_circle"></RadzenProfileMenuItem>
+                    <RadzenProfileMenuItem Text="Logout" Path="menu" Icon="line_weight"></RadzenProfileMenuItem>
+                </ChildContent>
+            </RadzenProfileMenu>
+        </div>
+    </div>
+</RadzenCard>
+
+@code {
+    IEnumerable<string> Languages;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        Languages = new List<string>
+        {
+            "EN",
+            "DE"
+        };
+        await base.OnInitializedAsync();
+    }
+}

@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.catalog\\dapr.eshop.catalog.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.catalog\\dapr.eshop.catalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.catalog\\dapr.eshop.catalog.csproj",
+        "projectName": "dapr.eshop.catalog",
+        "projectPath": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.catalog\\dapr.eshop.catalog.csproj",
+        "packagesPath": "C:\\Users\\toanduong\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.catalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\toanduong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.healthcheck\\dapr.eshop.healthcheck.csproj": {
+                "projectPath": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.healthcheck\\dapr.eshop.healthcheck.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.CosmosDb": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Dapr.Client": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Dapr.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Cosmos": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.healthcheck\\dapr.eshop.healthcheck.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.healthcheck\\dapr.eshop.healthcheck.csproj",
+        "projectName": "dapr.eshop.healthcheck",
+        "projectPath": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.healthcheck\\dapr.eshop.healthcheck.csproj",
+        "packagesPath": "C:\\Users\\toanduong\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.healthcheck\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\toanduong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapr.Client": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

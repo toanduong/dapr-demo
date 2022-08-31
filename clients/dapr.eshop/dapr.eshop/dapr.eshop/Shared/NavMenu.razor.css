@@ -1,0 +1,19 @@
+.main-menu {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-menu {
+    width: 80%;
+}
+
+.right-menu {
+    display: flex;
+    text-align: right;
+}
+
+::deep .btn-signin {
+    margin: 5px;
+}

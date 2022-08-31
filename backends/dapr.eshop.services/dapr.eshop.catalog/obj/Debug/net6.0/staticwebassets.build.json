@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "riuFPexLWrlN6fxyADMBM7J/GJu0bCCqoft4Owq5hS8=",
+  "Source": "dapr.eshop.catalog",
+  "BasePath": "_content/dapr.eshop.catalog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

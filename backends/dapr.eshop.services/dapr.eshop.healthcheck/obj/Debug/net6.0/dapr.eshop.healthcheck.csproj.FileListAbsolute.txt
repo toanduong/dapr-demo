@@ -1,0 +1,12 @@
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\bin\Debug\net6.0\dapr.eshop.healthcheck.deps.json
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\bin\Debug\net6.0\dapr.eshop.healthcheck.dll
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\bin\Debug\net6.0\dapr.eshop.healthcheck.pdb
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\dapr.eshop.healthcheck.csproj.AssemblyReference.cache
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\dapr.eshop.healthcheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\dapr.eshop.healthcheck.AssemblyInfoInputs.cache
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\dapr.eshop.healthcheck.AssemblyInfo.cs
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\dapr.eshop.healthcheck.csproj.CoreCompileInputs.cache
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\dapr.eshop.healthcheck.dll
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\refint\dapr.eshop.healthcheck.dll
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\dapr.eshop.healthcheck.pdb
+C:\Users\toanduong\Documents\Projects\microservices\dapr\dapr-demo\backends\dapr.eshop.services\dapr.eshop.healthcheck\obj\Debug\net6.0\ref\dapr.eshop.healthcheck.dll

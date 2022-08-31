@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "Iy3iv3qYvAzMbhi12z572sphXw+OZCmg6xRKjIkMvs5nKv9dKrc8Yj53Fmk5FXkrtDZ5JyS/9d4gfXFvpY14IQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\backends\\dapr.eshop.services\\dapr.eshop.healthcheck\\dapr.eshop.healthcheck.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\toanduong\\.nuget\\packages\\dapr.client\\1.8.0\\dapr.client.1.8.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\google.api.commonprotos\\2.2.0\\google.api.commonprotos.2.2.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\google.protobuf\\3.15.0\\google.protobuf.3.15.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\grpc.core.api\\2.32.0\\grpc.core.api.2.32.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\grpc.net.client\\2.32.0\\grpc.net.client.2.32.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\grpc.net.common\\2.32.0\\grpc.net.common.2.32.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\6.0.8\\microsoft.extensions.diagnostics.healthchecks.6.0.8.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\6.0.8\\microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.8.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

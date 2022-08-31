@@ -1,0 +1,18 @@
+﻿@using dapr.eshop.Data
+<RadzenCard>
+    <h2>@Product?.Name</h2>
+    <div class="prod-image">
+
+    </div>
+    <div class="prod-rating">
+        @Product?.Rating
+    </div>
+    <div class="prod-price">
+        @Product?.Price
+    </div>
+</RadzenCard>
+
+@code {
+    [Parameter]
+    public ProductViewModel Product { get; set; }
+}
