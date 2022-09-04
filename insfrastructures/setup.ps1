@@ -3,7 +3,7 @@ $loc = "westus"
 $environment = "cne-dpr"
 $STORAGE_ACCOUNT = "azstorageaccdapr"
 
-# sometime azure need register some extensions that help to create container apps, so we need install these first
+# sometime azure need register some extensions that help to create container apps, so we need install these extension in advance
 az provider register -n Microsoft.App --wait
 
 # creating resource group
@@ -27,12 +27,12 @@ az containerapp env create --name $environment `
 az containerapp env dapr-component set `
 --name $environment --resource-group $grp `
 --dapr-component-name statestore `
---yaml '.\dapr\components\statestore.yml'
+--yaml '.\dapr\components\eshop-statestore.yaml'
 
 az containerapp env dapr-component set `
 --name $environment --resource-group $grp `
 --dapr-component-name secretstore `
---yaml '.\dapr\components\secretstore.yml'
+--yaml '.\dapr\components\eshop-secretstore.yaml'
 
 az containerapp env dapr-component list --resource-group $grp --name $environment --output json
 

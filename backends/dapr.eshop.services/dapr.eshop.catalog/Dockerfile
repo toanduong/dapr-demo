@@ -7,12 +7,12 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["dapr.eshop.catalog/dapr.eshop.catalog.csproj", "dapr.eshop.catalog/"]
-COPY ["dapr.eshop.healthcheck/dapr.eshop.healthcheck.csproj", "dapr.eshop.healthcheck/"]
+COPY ["backends/dapr.eshop.services/dapr.eshop.catalog/dapr.eshop.catalog.csproj", "dapr.eshop.catalog/"]
+COPY ["backends/dapr.eshop.services/dapr.eshop.healthcheck/dapr.eshop.healthcheck.csproj", "dapr.eshop.healthcheck/"]
 
 RUN dotnet restore "dapr.eshop.catalog/dapr.eshop.catalog.csproj"
 COPY . .
-WORKDIR "/src/dapr.eshop.catalog"
+WORKDIR "/src/backends/dapr.eshop.services/dapr.eshop.catalog"
 RUN dotnet build "dapr.eshop.catalog.csproj" -c Release -o /app/build
 
 FROM build AS publish

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tXGeOCge5+h+8yBPpZzD15hprzlb2hCIOIh2FU/CncA=",
+  "Source": "dapr.eshop.order",
+  "BasePath": "_content/dapr.eshop.order",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
