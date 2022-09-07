@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4P/m71C6MY7Ik9gl9a8M5Hxyu/QPinYeAxJHIuIhJIH/7XDG7cOAKaP8mS1lZKLie3LGmemc9iSnvyf97M08g==",
+  "dgSpecHash": "WkJQv1ClGOdOMLHVizUfy7kR71nvI8SGySm1LAcSlKASVQea/NhBByX2+9xMx4MdRanWi4iMUAI+92TLZif8Lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\toanduong\\Documents\\Projects\\microservices\\dapr\\dapr-demo\\clients\\dapr.eshop\\dapr.eshop\\dapr.eshop\\dapr.eshop.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.jsinterop\\6.0.0\\microsoft.jsinterop.6.0.0.nupkg.sha512",
     "C:\\Users\\toanduong\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
+    "C:\\Users\\toanduong\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\toanduong\\.nuget\\packages\\radzen.blazor\\3.20.6\\radzen.blazor.3.20.6.nupkg.sha512",
     "C:\\Users\\toanduong\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512",
     "C:\\Users\\toanduong\\.nuget\\packages\\system.linq.dynamic.core\\1.2.12\\system.linq.dynamic.core.1.2.12.nupkg.sha512",

@@ -1,3 +1,4 @@
+using dapr.eshop.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Radzen;
@@ -7,6 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddHttpClient<IProductService, ProductService>(client =>
+{
+    client.BaseAddress = new Uri("https://product-api.orangepebble-d5a07353.westus.azurecontainerapps.io");
+});
 
 builder.Services.AddScoped<DialogService>();
 builder.Services.AddScoped<NotificationService>();

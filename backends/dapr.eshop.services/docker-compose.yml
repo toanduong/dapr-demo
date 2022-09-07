@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  dapr.eshop.order:
+    image: ${DOCKER_REGISTRY-}dapreshoporder
+    build:
+      context: .
+      dockerfile: dapr.eshop.order/Dockerfile
+
+  dapr.eshop.order-dapr:
+    image: "daprio/daprd:latest"
+    command: [ "./daprd", "-app-id", "dapr.eshop.order", "-app-port", "80" ]
+    depends_on:
+      - dapr.eshop.order
+    network_mode: "service:dapr.eshop.order"
+
+  dapr.eshop.product:
+    image: ${DOCKER_REGISTRY-}dapreshopproduct
+    build:
+      context: .
+      dockerfile: dapr.eshop.product/Dockerfile
+
+  dapr.eshop.product-dapr:
+    image: "daprio/daprd:latest"
+    command: [ "./daprd", "-app-id", "dapr.eshop.product", "-app-port", "80" ]
+    depends_on:
+      - dapr.eshop.product
+    network_mode: "service:dapr.eshop.product"

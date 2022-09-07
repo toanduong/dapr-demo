@@ -1,13 +1,14 @@
-using dapr.eshop.order.Services;
+using dapr.eshop.order;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddControllers().AddDapr();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDaprClient();
-builder.Services.AddScoped<IOrderService, OrderService>();
+builder.AddCustomDatabase();
+builder.AddCustomApplicationServices();
 
 var app = builder.Build();
 
@@ -20,30 +21,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorchingq111"
-};
+app.UseAuthorization();
 
-app.MapGet("/weatherforecast", async (IOrderService order) =>
-{
-    var text = await order.GetConfigs();
-    summaries.Append(text);
-    var forecast = summaries
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-
-app.MapGet("/config", async (IOrderService order) =>
-{
-    var text = await order.GetConfigs();
-    return text;
-});
+app.MapControllers();
 
 app.Run();
-
-internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

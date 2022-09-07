@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[1.14.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Radzen.Blazor": {
               "target": "Package",
               "version": "[3.20.6, )"

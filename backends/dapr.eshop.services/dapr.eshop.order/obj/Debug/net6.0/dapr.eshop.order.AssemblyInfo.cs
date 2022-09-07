@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c790d441-3c34-41b0-843e-ff0f11341a0b")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0d0269f2-dd70-42a5-9284-ff3f8f2e7d63")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("dapr.eshop.order")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

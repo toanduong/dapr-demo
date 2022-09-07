@@ -1,14 +1,28 @@
-﻿namespace dapr.eshop.Data
+﻿using System.Text.Json.Serialization;
+
+namespace dapr.eshop.Data
 {
     public class ProductViewModel
     {
-        public ProductViewModel()
-        { }
+        [JsonPropertyName("productId")]
+        public int ProductId { get; set; }
 
-        public Guid Id { get; set; }
-        public string Sku { get; set; }
-        public string Name { get; set; }
-        public double Price { get; set; }
-        public int Rating { get; set; }
+        [JsonPropertyName("productName")]
+        public string ProductName { get; set; }
+
+        [JsonPropertyName("description")]
+        public string Description { get; set; }
+
+        [JsonPropertyName("unitCost")]
+        public decimal UnitCost { get; set; }
+
+        [JsonPropertyName("unitPrice")]
+        public decimal UnitPrice { get; set; }
+
+        [JsonPropertyName("imageUrl")]
+        public string ImageUrl { get; set; }
+
+        [JsonPropertyName("categoryId")]
+        public string CategoryId { get; set; }
     }
 }

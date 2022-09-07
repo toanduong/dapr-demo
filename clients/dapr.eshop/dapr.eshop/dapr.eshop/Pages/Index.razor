@@ -1,5 +1,8 @@
 ﻿@page "/"
 @using dapr.eshop.Data
+@using dapr.eshop.Services
+
+@inject IProductService _productService;
 
 <PageTitle>Index</PageTitle>
 
@@ -13,25 +16,13 @@
 </div>
 
 @code {
-    private List<ProductViewModel> Products { get; set; }
+    private List<ProductViewModel> Products { get; set; } = new List<ProductViewModel>();
 
     protected override async Task OnInitializedAsync()
     {
-        Random rating = new Random();
-        Random price = new Random();
-        Products = new List<ProductViewModel>();
-        for (var i = 0; i < 10; i++)
-        {
-            var id = Guid.NewGuid();
-            Products.Add(new ProductViewModel
-                {
-                    Id = id,
-                    Name = $"Product {i}",
-                    Sku = Guid.NewGuid().ToString(),
-                    Rating = rating.Next(10),
-                    Price = price.Next(1000)
-                });
-        }
+        var products = await _productService.GetProducts();
+        Products = products.ToList();
+
         await base.OnInitializedAsync();
     }
 }

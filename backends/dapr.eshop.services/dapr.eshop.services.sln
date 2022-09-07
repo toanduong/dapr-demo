@@ -5,9 +5,13 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dapr.eshop.catalog", "dapr.eshop.catalog\dapr.eshop.catalog.csproj", "{B4D9A4E2-86CE-4EC8-9065-DB4E0BFC5FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dapr.eshop.healthcheck", "dapr.eshop.healthcheck\dapr.eshop.healthcheck.csproj", "{43C6AE76-C5B9-45BA-A421-FC441A30B426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dapr.eshop.healthcheck", "dapr.eshop.healthcheck\dapr.eshop.healthcheck.csproj", "{43C6AE76-C5B9-45BA-A421-FC441A30B426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dapr.eshop.order", "dapr.eshop.order\dapr.eshop.order.csproj", "{A699B463-ED77-43F1-A99D-06C171C6D29C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dapr.eshop.order", "dapr.eshop.order\dapr.eshop.order.csproj", "{542768DB-41AD-4BEA-B4C8-CE8901C4F4F7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F580965C-5256-4B3F-B82A-6649B8932897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dapr.eshop.product", "dapr.eshop.product\dapr.eshop.product.csproj", "{C5019AE8-7B63-4777-B0FD-50A4D097B444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +27,18 @@ Global
 		{43C6AE76-C5B9-45BA-A421-FC441A30B426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C6AE76-C5B9-45BA-A421-FC441A30B426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C6AE76-C5B9-45BA-A421-FC441A30B426}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A699B463-ED77-43F1-A99D-06C171C6D29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A699B463-ED77-43F1-A99D-06C171C6D29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A699B463-ED77-43F1-A99D-06C171C6D29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A699B463-ED77-43F1-A99D-06C171C6D29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542768DB-41AD-4BEA-B4C8-CE8901C4F4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542768DB-41AD-4BEA-B4C8-CE8901C4F4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542768DB-41AD-4BEA-B4C8-CE8901C4F4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542768DB-41AD-4BEA-B4C8-CE8901C4F4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F580965C-5256-4B3F-B82A-6649B8932897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F580965C-5256-4B3F-B82A-6649B8932897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F580965C-5256-4B3F-B82A-6649B8932897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F580965C-5256-4B3F-B82A-6649B8932897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5019AE8-7B63-4777-B0FD-50A4D097B444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5019AE8-7B63-4777-B0FD-50A4D097B444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5019AE8-7B63-4777-B0FD-50A4D097B444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5019AE8-7B63-4777-B0FD-50A4D097B444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

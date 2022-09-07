@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["backends/dapr.eshop.services/dapr.eshop.order/dapr.eshop.order.csproj", "dapr.eshop.order/"]
+COPY ["dapr.eshop.order/dapr.eshop.order.csproj", "dapr.eshop.order/"]
 RUN dotnet restore "dapr.eshop.order/dapr.eshop.order.csproj"
 COPY . .
-WORKDIR "/src/backends/dapr.eshop.services/dapr.eshop.order"
+WORKDIR "/src/dapr.eshop.order"
 RUN dotnet build "dapr.eshop.order.csproj" -c Release -o /app/build
 
 FROM build AS publish
